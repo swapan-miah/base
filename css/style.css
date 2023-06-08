@@ -110,3 +110,13 @@ z-index: -1;
 
 }
 /* trust section end  */
+
+/* affordable section start  */
+.affordable_section{
+    background-color: #1C2136;
+}
+.affor-card{
+    background-color: #181C31;
+    border-radius: 16px;
+}
+/* affordable section end  */
