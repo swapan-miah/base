@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* All document section  */
+body{
+    background-color: #181C31;
+}
+
+/* navbar section start  */
+.nav{
+    z-index: 99;
+}
+.nav_brand_img{
+    width: 45px;
+}
+.nav_logo_name{
+
+}
+.navbar-toggler-icon{
+    color: white !important;
+}
+nav ul li a{
+    color: white !important;
+}
+.loginSingIn ul{
+    margin-bottom: 0;
+}
+.loginSingIn ul li:hover{
+    background: #613d3dee !important; 
+    border-radius: 16px !important;
+    outline: none !important;
+}
+/* navbar section end  */
+
+/* hero section start  */
+.hero_img{
+   
+position: relative;
+   
+top: -900px;
+   
+left: 700px;
+   
+z-index: -1;
+}
+.hero_img img{
+   width: 100%;
+}
+.hero_btn_custom{
+    background-color: rgb(10, 38, 202);
+    outline: noen;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 26px;
+    color: white;
+}
+.text_custom_color{
+    color: #868891;
+}
+/* hero section  end */

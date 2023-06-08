@@ -1,0 +1,5 @@
+home
+features
+services
+pricing -> dropdown
+contact
