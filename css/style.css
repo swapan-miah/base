@@ -7,6 +7,8 @@
 /* All document section  */
 body{
     background-color: #181C31;
+    width: 100%;
+    overflow-x: hidden;
 }
 
 /* navbar section start  */
@@ -36,7 +38,7 @@ nav ul li a{
 /* navbar section end  */
 
 /* hero section start  */
-.hero_img{
+.hero-img-section{
    
 position: relative;
    
@@ -61,3 +63,50 @@ z-index: -1;
     color: #868891;
 }
 /* hero section  end */
+
+/* support section start  */
+.suport_section_img{
+ 
+}
+.suport_img_icon{
+   background-color: red;
+   border-radius: 50%;
+}
+.suport_section_img i{
+    font-size: 50px;
+}
+.suport_section{
+    margin-top: -850px;
+    color: white;
+}
+/* support section end  */
+
+/* best services start */
+.best-services{
+    align-items: flex-start;
+}
+.btn_custom{
+    display: inline-block;
+    background-color: rgb(10, 38, 202);
+    outline: noen;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 26px;
+    color: white;
+    width: 200px;
+}
+/* best services end */
+
+/* trust section start  */
+.trust_section .col-8{
+    height: 180px;
+}
+.background_img{
+    background-image: url('../img/Trust/shape-08.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+
+}
+/* trust section end  */
