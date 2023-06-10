@@ -161,3 +161,16 @@ z-index: -1;
     background-size: cover;
 }
 /* achive_section end  */
+
+/* brand section start  */
+.brand-section{
+    border-bottom: 1px solid #868891;
+}
+/* brand section end  */
+
+/* blog news section start  */
+.blog_news{
+    background-color: #1C2136;
+}
+
+/* blog news section end  */
