@@ -22,6 +22,7 @@ body{
 
 }
 .navbar-toggler-icon{
+    background-image: url('../img/navicon.png');
     color: white !important;
 }
 nav ul li a{
@@ -174,3 +175,12 @@ z-index: -1;
 }
 
 /* blog news section end  */
+
+/* contact section start  */
+.bg-custom{
+    background-color: #1C2136;
+}
+.social_media a{
+    display: inline-block;
+}
+/* contact section end  */
