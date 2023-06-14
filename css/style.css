@@ -5,15 +5,16 @@
 }
 
 /* All document section  */
-body{
+html, body{
     background-color: #181C31;
     width: 100%;
     overflow-x: hidden;
 }
 
 /* navbar section start  */
-.nav{
+nav{
     z-index: 99;
+    
 }
 .nav_brand_img{
     width: 45px;
@@ -22,7 +23,7 @@ body{
 
 }
 .navbar-toggler-icon{
-    background-image: url('../img/navicon.png');
+    background-image: url('../img/navicon1.png');
     color: white !important;
 }
 nav ul li a{
@@ -39,15 +40,18 @@ nav ul li a{
 /* navbar section end  */
 
 /* hero section start  */
+.hero-section{
+    z-index: -2;
+}
 .hero-img-section{
    
 position: relative;
    
-top: -900px;
+top: -733px;
    
-left: 700px;
+left: 204px;
    
-z-index: -1;
+z-index: 1;
 }
 .hero_img img{
    width: 100%;
@@ -184,3 +188,27 @@ z-index: -1;
     display: inline-block;
 }
 /* contact section end  */
+
+
+
+
+
+
+
+/* // X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap */
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {  }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {  }
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  }
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {  }
