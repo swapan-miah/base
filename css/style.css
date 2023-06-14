@@ -29,14 +29,24 @@ nav{
 nav ul li a{
     color: white !important;
 }
-.loginSingIn ul{
+.sign_In, .Sign_Up{
+    background-color:#1C2136;
+    text-align: center;
+    padding: 2px;
+    margin: 5px 0px;
+    width: 75px;
+    border-radius: 6px;
+}
+/* .loginSingIn ul{
     margin-bottom: 0;
+    background-color: #122058;
+    padding: 10px;
 }
 .loginSingIn ul li:hover{
     background: #613d3dee !important; 
     border-radius: 16px !important;
     outline: none !important;
-}
+} */
 /* navbar section end  */
 
 /* hero section start  */
@@ -47,7 +57,7 @@ nav ul li a{
    
 position: relative;
    
-top: -733px;
+top: -815px;
    
 left: 204px;
    
