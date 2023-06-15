@@ -11,6 +11,11 @@ html, body{
     overflow-x: hidden;
 }
 
+.main_wraper{
+    position: relative;
+    top: -300px;
+}
+
 /* navbar section start  */
 nav{
     z-index: 99;
@@ -225,6 +230,19 @@ z-index: 1;
         left: 300px;
         z-index: 1;
         }
+    .main_wraper{
+        position: relative;
+        top: -1000px;
+       
+    }
+}
+/* .... for 760px near by browser tablet... */
+@media (min-width: 760px) {
+    .main_wraper{
+        position: relative;
+        top: -600px;
+        
+    }
 }
 
 /* // Medium devices (tablets, 768px and up) */
@@ -259,6 +277,13 @@ z-index: 1;
     .Sign_Up:hover{
         background-color: #1C2136;
     }
+
+    /* main_wraper section  */
+    .main_wraper{
+        position: relative;
+        top: -750px;
+    }
+
     
 }
 
@@ -273,4 +298,10 @@ z-index: 1;
   }
 
 /* // XX-Large devices (larger desktops, 1400px and up) */
-@media (min-width: 1400px) {  }
+@media (min-width: 1400px) { 
+    .main_wraper{
+        position: relative;
+        top: -1000px;
+        
+    }
+ }
