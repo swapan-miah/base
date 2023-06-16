@@ -208,6 +208,20 @@ z-index: 1;
   }
 /* affordable section end  */
 /* affordable prime section start  */
+
+.myBtnContainerPrime{
+    background: #282e41;
+    border-radius: 30px;
+}
+.active{
+    background-color: blue !important;
+    border: none;
+}
+.btn-custion{
+    flex-grow: 1 !important;
+    border-radius: 5rem;
+    padding: 5px 10px
+}
 /* .button_group{
     background-color: white;
     border-radius: 16px;
