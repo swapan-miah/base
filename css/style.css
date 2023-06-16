@@ -280,6 +280,9 @@ z-index: 1;
 .social_media a{
     display: inline-block;
 }
+.social_media a i{
+    font-size: 20px;
+}
 /* contact section end  */
 
 
