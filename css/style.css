@@ -4,7 +4,9 @@
     box-sizing: border-box;
 }
 
-/* All document section importen code start  */
+/* All document section importen code start 
+                or
+ universal code for this project */
 html, body{
     background-color: #181C31;
     width: 100%;
@@ -18,6 +20,9 @@ html, body{
 h1, h2, h3, h4, h5, h5, p{
     position: relative;
     z-index: 999;
+}
+.text_custom_color{ /* I have use this code a lot of time in this project */
+    color: #868891;
 }
 /* All document section importen code end  */
 
