@@ -284,13 +284,25 @@ z-index: 1;
 }
 .social_media a{
     display: inline-block;
+    margin: 10px;
 }
 .social_media a i{
     font-size: 20px;
 }
 /* contact section end  */
 
-
+/* footer section start  */
+.social_media_footer a{
+    margin: 10px;
+}
+.E_btn_hover:hover{
+    border: 2px solid white;
+}
+.send_icon{
+    
+margin: 12px 15px 0px 8px;
+}
+/* footer section End  */
 
 
 
