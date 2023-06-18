@@ -354,29 +354,27 @@
       <div class="row text-center">
         <div class="col-3"></div>
         <div class="col-12 col-md-12 ">
-          <div id="myBtnContainer " class=" myBtnContainerPrime d-flex flex-column flex-md-row flex-grow-1 justify-content-between  p-1 px-3">
-            <button class="btn btn-custion active  text-white  justify-content-between" onclick="filterSelection('all')"> All</button>
-            <button class="btn btn-custion text-white " onclick="filterSelection('Branding_Strategy')"> Branding Strategy</button>
-            <button class="btn btn-custion text-white " onclick="filterSelection('Digital_Experience')"> Digital Experience</button>
-            <button class="btn btn-custion text-white " onclick="filterSelection('Ecommerce')"> Ecommerce</button>
-          </div>
+          <ul class="text-white bg-info">
+            <li class="list btn text-white px-4 active" date-filter="all">All</li>
+            <li class="list btn text-white px-4" date-filter="branding_strategy">Branding Strategy</li>
+            <li class="list btn text-white px-4" date-filter="digital_experience">Digital Experience</li>
+            <li class="list btn text-white px-4" date-filter="ecommerce">Ecommerce</li>
+          </ul>
         </div>
         <div class="col-3"></div>
-      </div> mb-3
+      </div> 
       <div class="row my-5">
-        <div class="container">
-          <div class="col-4 mb-3 filterDiv"><img class="img-fluid" src="./img/affordable_prime/blog-01.png" alt=""></div>
-          <div class="col-4 mb-3 filterDiv"><img class="img-fluid Branding_Strategy" src="./img/affordable_prime/blog-02.png" alt=""></div>
-          <div class="col-4 mb-3 filterDiv"><img class="img-fluid Ecommerce" src="./img/affordable_prime/blog-03.png" alt=""></div>
-          <div class="col-4 mb-3 filterDiv"><img class="img-fluid Ecommerce" src="./img/affordable_prime/blog-04.png" alt=""></div>
-          <div class="col-4 mb-3 filterDiv"><img class="img-fluid Branding_Strategy Ecommerce" src="./img/affordable_prime/blog-big.jpg" alt=""></div>
-          <div class="col-4 mb-3 filterDiv"><img class="img-fluid Branding_Strategy" src="./img/affordable_prime/digit.jpg" alt=""></div>
-          <div class="col-4 mb-3 filterDiv"><img class="img-fluid Ecommerce" src="./img/affordable_prime/Ecommerce-DG.jpg" alt=""></div>
-          <div class="col-4 mb-3 filterDiv"><img class="img-fluid Ecommerce" src="./img/affordable_prime/R.jpg" alt=""></div>
-          <div class="col-4 mb-3 filterDiv"><img class="img-fluid Ecommerce" src="./img/affordable_prime/project-02.png" alt=""></div>
+          <div class="col-4 mb-3 filterDiv" data-item="branding_strategy"><img class="img-fluid"  src="./img/affordable_prime/blog-01.png" alt=""></div>
+          <div class="col-4 mb-3 filterDiv" data-item="branding_strategy"><img class="img-fluid"   src="./img/affordable_prime/blog-02.png" alt=""></div>
+          <div class="col-4 mb-3 filterDiv" data-item="ecommerce"><img class="img-fluid"  src="./img/affordable_prime/blog-03.png" alt=""></div>
+          <div class="col-4 mb-3 filterDiv" data-item="ecommerce"><img class="img-fluid"  src="./img/affordable_prime/blog-04.png" alt=""></div>
+          <div class="col-4 mb-3 filterDiv" data-item="ecommerce"><img class="img-fluid"  src="./img/affordable_prime/blog-big.jpg" alt=""></div>
+          <div class="col-4 mb-3 filterDiv" date-item="digital_experience"><img class="img-fluid"  src="./img/affordable_prime/digit.jpg" alt=""></div>
+          <div class="col-4 mb-3 filterDiv" date-item="digital_experience"><img class="img-fluid"  src="./img/affordable_prime/Ecommerce-DG.jpg" alt=""></div>
+          <div class="col-4 mb-3 filterDiv" date-item="digital_experience"><img class="img-fluid"   src="./img/affordable_prime/R.jpg" alt=""></div>
+          <div class="col-4 mb-3 filterDiv" date-item="branding_strategy"><img class="img-fluid"  src="./img/affordable_prime/project-02.png" alt=""></div>
       </div>
-        </div>
-      </div>
+    </div>
    </div>
    <!-- affordable_prime_section End  -->
 
