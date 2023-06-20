@@ -17,8 +17,8 @@ for (let i = 0; i < list.length; i++) {
       filterDiv[k].classList.add("hide")
 
       if(filterDiv[k].getAttribute("data-item") == dataFilter || dataFilter == "all"){
-        filterDiv[i].classList.remove("hide");
-        filterDiv[i].classList.add("active");
+        filterDiv[k].classList.remove("hide");
+        filterDiv[k].classList.add("active1");
       }
     }
   })

@@ -9,6 +9,7 @@
  universal code for this project */
 html, body{
     background-color: #181C31;
+    height: 4000px;
     width: 100%;
     overflow-x: hidden;
 }
@@ -219,31 +220,28 @@ z-index: 1;
     border-radius: 30px;
 }
 .active{
-    background-color: blue !important;
+    background-color: #0a26ca !important;
     border: none;
 }
 .hide{
     display: none;
 }
-.btn-custion{
-    flex-grow: 1 !important;
-    border-radius: 5rem;
-    padding: 5px 10px
+.prime_btn_custion{
+    /* flex-basis: 150px; */
+    /* flex-grow: 1; */
+    /* border-radius: 5rem; */
+    padding: 7px 10px;
+    background-color: #282e41;
 }
-/* .button_group{
-    background-color: white;
-    border-radius: 16px;
-    display: inline-block;
-    
-}
-.button_group button{
-    background-color: transparent;
-    border-radius: 16px;
-    border: none;
-    outline: none;
-    padding-right: 40px;
 
-} */
+
+.prime_btn_custion li{
+    flex-grow: 1;
+    border-radius: 30px;
+    margin-bottom: 15px;
+    transform: all 0.3;
+}
+
 /* affordable prime section end  */
 
 /* amd section  start */
@@ -344,6 +342,12 @@ margin: 12px 15px 0px 8px;
         top: -600px;
         
     }
+    .prime_btn_custion{
+        border-radius: 5rem;
+        padding: 7px 10px;
+        background-color: #282e41;
+    }
+    
 }
 
 /* // Medium devices (tablets, 768px and up) */
@@ -383,6 +387,11 @@ margin: 12px 15px 0px 8px;
     .main_wraper{
         position: relative;
         top: -750px;
+    }
+
+    .prime_btn_custion li{
+        flex-basis: 150px;
+        flex-grow: 1;
     }
 
     
